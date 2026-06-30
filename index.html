@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Fahique — Frontend Developer</title>
+    <meta
+      name="description"
+      content="Mohammed Fahique, Frontend Developer. React.js, JavaScript &amp; responsive web apps."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/devicon@2.16.0/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="light">
+    <div class="grid-bg"></div>
+
+    <header>
+      <nav class="wrap">
+        <a href="#top" class="logo"><span class="dot"></span>&lt;MF/&gt;</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <a href="#contact" class="btn-cta"
+            >Let's connect
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M5 12h14M13 5l7 7-7 7" />
+            </svg>
+          </a>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+          >
+            <svg
+              id="iconSun"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <circle cx="12" cy="12" r="4.2" />
+              <path
+                d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"
+              />
+            </svg>
+            <svg
+              id="iconMoon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              style="display: none"
+            >
+              <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="name-block left">
+              <span class="eyebrow">GANGOLLI MOHAMMED</span>
+              <h1 class="first-name">FAHIQUE</h1>
+              <p class="social-row">
+                <a
+                  href="https://www.linkedin.com/in/mohammedfahiq"
+                  aria-label="LinkedIn"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9z"
+                    />
+                  </svg>
+                </a>
+                <a href="https://github.com/fahique-malma" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.57v-2c-3.2.7-3.9-1.55-3.9-1.55-.5-1.35-1.3-1.7-1.3-1.7-1.1-.75.1-.75.1-.75 1.2.1 1.85 1.25 1.85 1.25 1.05 1.8 2.8 1.3 3.5 1 .1-.75.4-1.3.75-1.6-2.55-.3-5.25-1.3-5.25-5.7 0-1.25.45-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2.95-.25 2-.4 3-.4s2.05.15 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.75.8 1.2 1.85 1.2 3.1 0 4.4-2.7 5.4-5.25 5.7.4.35.8 1.05.8 2.1v3.1c0 .3.2.65.8.55 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5z"
+                    />
+                  </svg>
+                </a>
+              </p>
+            </div>
+
+            <div class="photo-wrap">
+              <div class="photo-frame">
+                <span class="corner tl"></span>
+                <img
+                  src="assets/profile.jpg"
+                  alt="Portrait of Mohammed Fahique"
+                />
+                <span class="corner br"></span>
+              </div>
+              <div class="status-badge">
+                <span class="pulse"></span> Available for work
+              </div>
+            </div>
+
+            <div class="name-block right">
+              <span class="eyebrow">FRONTEND</span>
+              <h1 class="last-name">DEVELOPER</h1>
+              <p class="role-line right-align">
+                I build responsive, modern, and user-friendly web applications
+                with React, JavaScript, and modern CSS frameworks.
+              </p>
+            </div>
+          </div>
+
+          <div class="stack-strip reveal">
+            <div class="stack-row">
+              <div class="stack-pill">
+                <i class="devicon-html5-plain colored"></i> HTML
+              </div>
+              <div class="stack-pill">
+                <i class="devicon-css3-plain colored"></i> CSS
+              </div>
+              <div class="stack-pill">
+                <i class="devicon-javascript-plain colored"></i> JavaScript
+              </div>
+              <div class="stack-pill">
+                <i class="devicon-react-original colored"></i> React.js
+              </div>
+              <div class="stack-pill">
+                <i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS
+              </div>
+              <div class="stack-pill">
+                <i class="devicon-bootstrap-plain colored"></i> Bootstrap
+              </div>
+            </div>
+
+            <a href="assets/resume.pdf" download class="btn-resume">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" />
+              </svg>
+              Download Resume
+            </a>
+          </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="about">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag mono">// about</span>
+              <h2>About<br />ME</h2>
+            </div>
+            <p>
+              a frontend developer who likes turning a blank page into something
+              people can actually use.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="reveal">
+              <p>
+                Hi, I'm Mohammed Fahique, a frontend developer who enjoys turning ideas into clean, responsive web applications. I work primarily with HTML, CSS, JavaScript, and React.js, and I like building interfaces that feel intuitive and work well across every screen size — from a quick landing page to a full dashboard.
+              </p>
+
+              <p>
+                Beyond frontend work, I have a solid foundation in Java, Python, C, and MySQL, which helps me understand how the systems behind the interfaces I build actually work. I'm currently open to frontend developer roles where I can keep growing — building scalable, responsive web applications and learning from teams.
+              </p>
+            </div>
+
+            <div class="tech-stack reveal">
+              <span class="props-key mono">tech stack</span>
+              <div class="tech-icons">
+                <div class="tech-icon" title="Java">
+                  <i class="devicon-java-plain colored"></i>
+                  <span>Java</span>
+                </div>
+                <div class="tech-icon" title="Python">
+                  <i class="devicon-python-plain colored"></i>
+                  <span>Python</span>
+                </div>
+                <div class="tech-icon" title="C">
+                  <i class="devicon-c-plain colored"></i>
+                  <span>C</span>
+                </div>
+                <div class="tech-icon" title="JavaScript">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="tech-icon" title="MySQL">
+                  <i class="devicon-mysql-plain colored"></i>
+                  <span>MySQL</span>
+                </div>
+                <div class="tech-icon" title="React.js">
+                  <i class="devicon-react-original colored"></i>
+                  <span>React</span>
+                </div>
+              </div>
+              <a href="assets/resume.pdf" download class="btn-cta download-cv">
+                RESUME
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 4v12m0 0l-5-5m5 5l5-5M5 20h14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag mono">// experience</span>
+              <h2>Where I've worked</h2>
+            </div>
+            <p>One internship so far</p>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="tl-item">
+              <span class="tl-dot"></span>
+              <span class="tl-date">FEB 2026 — JUN 2026</span>
+              <h3>Web Development Intern</h3>
+              <span class="org">EDUTAINER · PAT Technologies Pvt. Ltd.</span>
+              <ul>
+                <li>
+                  Built a responsive authentication module, with client-side
+                  validation and real-time error/success feedback for email,
+                  username and password.
+                </li>
+                <li>
+                  Developed a personal finance tracker with income/expense
+                  categorisation, automatic balance calculation and Local
+                  Storage-based persistence across sessions.
+                </li>
+                <li>
+                  Designed mobile-first, fully responsive UI components, picking
+                  up core debugging practices and MySQL fundamentals along the
+                  way.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag mono">// work</span>
+              <h2>Projects</h2>
+            </div>
+            <p>built apps to solve a real, everyday problem.</p>
+          </div>
+
+          <div class="projects-list">
+            <div class="project reveal">
+              <div class="project-media">
+                <span class="browser-dots"
+                  ><span></span><span></span><span></span
+                ></span>
+                <video
+                  src="assets/demo.mp4"
+                  poster="assets/project1.png"
+                  muted
+                  loop
+                  autoplay
+                  playsinline
+                ></video>
+                <span class="pmtitle mono">expense-management-system /</span>
+              </div>
+              <div class="project-body">
+                <span class="project-index mono">01 / personal finance</span>
+                <h3>Expense Management System</h3>
+                <p>
+                  A Responsive Personal Finance Management Web application for tracking income,
+                  expenses, recurring bills and monthly cash flow. Categorises
+                  spending automatically, recalculates balances in real time. 
+                  The application provides an intuitive dashboard for monitoring financial activities 
+                  and visualizing spending patterns through an interactive chart. 
+                </p>
+                <div class="tags">
+                  <span class="tag">React.js</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/fahique-malma/expense-management-system"
+                    ><svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.57v-2c-3.2.7-3.9-1.55-3.9-1.55-.5-1.35-1.3-1.7-1.3-1.7-1.1-.75.1-.75.1-.75 1.2.1 1.85 1.25 1.85 1.25 1.05 1.8 2.8 1.3 3.5 1 .1-.75.4-1.3.75-1.6-2.55-.3-5.25-1.3-5.25-5.7 0-1.25.45-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2.95-.25 2-.4 3-.4s2.05.15 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.75.8 1.2 1.85 1.2 3.1 0 4.4-2.7 5.4-5.25 5.7.4.35.8 1.05.8 2.1v3.1c0 .3.2.65.8.55 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5z"
+                      />
+                    </svg>
+                    View code</a
+                  >
+                  <a href="https://expense-management-system-kohl.vercel.app/" target="_blank" rel="noopener"
+                    ><svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M14 5h5v5M19 5L10 14" />
+                      <path
+                        d="M8 5H6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-2"
+                      />
+                    </svg>
+                    Live demo</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project reveal">
+              <div class="project-media">
+                <span class="browser-dots"
+                  ><span></span><span></span><span></span
+                ></span>
+                <video
+                  src="assets/demo2.mp4"
+                  poster="assets/project2.png"
+                  muted
+                  loop
+                  autoplay
+                  playsinline
+                ></video>
+                <span class="pmtitle mono">habit-flow /</span>
+              </div>
+              <div class="project-body">
+                <span class="project-index mono">02 / Productivity</span>
+                <h3>Habit-Flow</h3>
+                <p>
+                  A habit-tracking app for building and sticking to routines:
+                  dynamic habit management, monthly progress monitoring and
+                  real-time analytics on an interactive dashboard. Theme
+                  customisation and Local Storage persistence let people pick up
+                  their streak exactly where they left it.
+                </p>
+                <div class="tags">
+                  <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/fahique-malma/habit-flow"
+                    ><svg viewBox="0 0 24 24" fill="currentColor">
+                      <path
+                        d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.57v-2c-3.2.7-3.9-1.55-3.9-1.55-.5-1.35-1.3-1.7-1.3-1.7-1.1-.75.1-.75.1-.75 1.2.1 1.85 1.25 1.85 1.25 1.05 1.8 2.8 1.3 3.5 1 .1-.75.4-1.3.75-1.6-2.55-.3-5.25-1.3-5.25-5.7 0-1.25.45-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2.95-.25 2-.4 3-.4s2.05.15 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.75.8 1.2 1.85 1.2 3.1 0 4.4-2.7 5.4-5.25 5.7.4.35.8 1.05.8 2.1v3.1c0 .3.2.65.8.55 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5z"
+                      />
+                    </svg>
+                    View code</a
+                  >
+                  <a href="https://fahique-malma.github.io/habit-flow/" target="_blank" rel="noopener"
+                    ><svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M14 5h5v5M19 5L10 14" />
+                      <path
+                        d="M8 5H6a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-2"
+                      />
+                    </svg>
+                    Live demo</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="wrap">
+          <div class="contact-box reveal">
+            <span class="eyebrow mono">// get in touch</span>
+            <h2>Let's work<br />Together.</h2>
+            <p>
+              Open to frontend developer roles. 
+              I specialize in building scalable and responsive web applications.            </p>
+            <div class="social-row">
+              <a href="https://www.linkedin.com/in/mohammedfahiq" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9z"
+                  />
+                </svg>
+              </a>
+              <a href="https://github.com/fahique-malma" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.57v-2c-3.2.7-3.9-1.55-3.9-1.55-.5-1.35-1.3-1.7-1.3-1.7-1.1-.75.1-.75.1-.75 1.2.1 1.85 1.25 1.85 1.25 1.05 1.8 2.8 1.3 3.5 1 .1-.75.4-1.3.75-1.6-2.55-.3-5.25-1.3-5.25-5.7 0-1.25.45-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2.95-.25 2-.4 3-.4s2.05.15 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.75.8 1.2 1.85 1.2 3.1 0 4.4-2.7 5.4-5.25 5.7.4.35.8 1.05.8 2.1v3.1c0 .3.2.65.8.55 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.65 18.35.5 12 .5z"
+                  />
+                </svg>
+              </a>
+              <a href="mailto:fahiqahmed5@gmail.com" aria-label="Email">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="M22 6l-10 7L2 6" />
+                </svg>
+              </a>
+            </div>
+            <div class="closing-tag">&lt;Mohammed Fahique/&gt;</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
